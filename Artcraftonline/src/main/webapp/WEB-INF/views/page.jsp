@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+
 <c:set var="contextRoot" value="${pageContext.request.contextPath}" />
 
 <spring:url var="css" value="/resources/css" />
@@ -52,13 +53,11 @@
 	<div class="wrapper">
 
 		<!-- Navigation -->
-		<%@include file="navbar.jsp"%>
+		<%@include file="header.jsp"%>
 
 		<!-- Page Content -->
-
 		<div class="content">
-			
-			<!-- Loading the home content -->
+		<!-- loading the page content  -->
 			<c:if test="${userClickHome == true }">
 				<%@include file="home.jsp"%>
 			</c:if>

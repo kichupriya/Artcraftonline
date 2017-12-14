@@ -4,7 +4,7 @@
 		
 		<h1>Contact Us</h1>
 		<hr/>
-		<p>This is an contact us page
+		<p>This is an Contact us page
 		   mobile:: 7397422300</p>	
 	
 	</div>
